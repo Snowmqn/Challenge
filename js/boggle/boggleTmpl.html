@@ -1,0 +1,45 @@
+<!-- set up board (4x4 grid)
+inplement random letter generation
+set up searching algorithm
+set up counting through file
+make pretty-->
+
+<div class="titleDiv">
+    <h1 class="title">Boggle</h1>
+</div>
+
+<button class="runButton btn btn-default" ng-click="runBoggle()">Run Game</button>
+
+<div class="boggleGrid">
+    <!--<img src="https://sudokugarden.de/images/info/sudoku4.png" alt="">-->
+    <canvas id="0" width="100" height="100" class="box"></canvas>
+    <canvas id="1" width="100" height="100" class="box"></canvas>
+    <canvas id="2" width="100" height="100" class="box"></canvas>
+    <canvas id="3" width="100" height="100" class="box"></canvas>
+    <canvas id="4" width="100" height="100" class="box"></canvas>
+    <canvas id="5" width="100" height="100" class="box"></canvas>
+    <canvas id="6" width="100" height="100" class="box"></canvas>
+    <canvas id="7" width="100" height="100" class="box"></canvas>
+    <canvas id="8" width="100" height="100" class="box"></canvas>
+    <canvas id="9" width="100" height="100" class="box"></canvas>
+    <canvas id="10" width="100" height="100" class="box"></canvas>
+    <canvas id="11" width="100" height="100" class="box"></canvas>
+    <canvas id="12" width="100" height="100" class="box"></canvas>
+    <canvas id="13" width="100" height="100" class="box"></canvas>
+    <canvas id="14" width="100" height="100" class="box"></canvas>
+    <canvas id="15" width="100" height="100" class="box"></canvas>
+    
+
+</div>
+<ul class="list-group">
+  <li class="list-group-item">Points: {{points}}</li>
+  <li class="list-group-item">Word Count: {{wordCount}}</li>
+  <li class="list-group-item">
+      Words:
+      <div ng-repeat="word in words track by $index">
+          <ul>
+              <li>{{word}}</li>
+          </ul>
+      </div>
+  </li>
+</ul>

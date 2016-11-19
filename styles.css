@@ -1,0 +1,49 @@
+body {
+    background: #cdcdcd;
+}
+
+.top {
+    background-color: #afafaf;
+}
+
+.display {
+    width: 600px;
+    margin: 0 auto;
+    background-color: #ececec;
+    min-height: 100vh;
+}
+
+.titleDiv {
+    margin: 0 auto;
+    width: 100%;
+
+}
+
+.title {
+    text-align: center;
+}
+
+.runButton {
+    margin: 5px;
+}
+
+.boggleGrid {
+    width: 420px;
+    margin: 5px auto;
+}
+
+.box {
+    border: 1px solid black;
+}
+
+.homeDiv {
+    display: inline;
+    margin: 0 5px;
+    background-color: #cecece;
+    min-height: 95vh;
+}
+
+.homeStats {
+    width: 90%;
+    margin: 0 auto;
+}
